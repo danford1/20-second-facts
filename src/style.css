@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2.6em;
+}
+
+.subtitle {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+.timer {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.text {
+  color: #444;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.value {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.info {
+  max-width: 360px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn:hover .btn:hover {
+    text-decoration: none;
+}
+
+.btn-green {
+    background-color: #20a999;
+    border: 1px solid #20a999;
+    color: #fff;
+    box-shadow: 2px 3px 3px #C3CBD3;
+}
+
+.btn-green:hover, .btn-green:focus {
+    background-color: #0e9081;
+    border: 1px solid #0e9081;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 2px 3px 3px #C3CBD3;
+}
