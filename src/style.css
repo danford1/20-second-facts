@@ -39,35 +39,50 @@ h1 {
   font-size: 16px;
 }
 
-.btn {
+button {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-size: 0.9rem;
-    font-weight: 400;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 50%;
     cursor: pointer;
 }
 
-.btn:hover .btn:hover {
-    text-decoration: none;
+button:hover {
+
 }
 
-.btn-green {
-    background-color: #20a999;
-    border: 1px solid #20a999;
+button .btn-green {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #1abc9b;
     color: #fff;
-    box-shadow: 2px 3px 3px #C3CBD3;
+    margin: 10px;
+    font-size: 0.6em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border: none;
 }
 
-.btn-green:hover, .btn-green:focus {
-    background-color: #0e9081;
-    border: 1px solid #0e9081;
-    color: #fff;
+button:hover .btn-green {
     text-decoration: none;
-    box-shadow: 2px 3px 3px #C3CBD3;
+    background-color: #09cca4;
+}
+
+.btn-white {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #1abc9b;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn-white :hover {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #1abc9b;
+    font-size: 1.0em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
