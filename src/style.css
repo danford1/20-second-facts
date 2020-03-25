@@ -44,45 +44,22 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-
-}
-
-button .btn-green {
+.btn-white {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    background-color: #1abc9b;
-    color: #fff;
-    margin: 10px;
-    font-size: 0.6em;
+    background-color: #fff;
+    color: #1abc9b;
+    margin: 0;
+    font-size: 1.0em;
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 0;
     border: none;
 }
 
-button:hover .btn-green {
-    text-decoration: none;
-    background-color: #09cca4;
-}
-
-.btn-white {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    color: #1abc9b;
-    font-size: 1.0em;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-
-.btn-white :hover {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    color: #1abc9b;
-    font-size: 1.0em;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.btn-white:hover {
+    color: #000;
 }
