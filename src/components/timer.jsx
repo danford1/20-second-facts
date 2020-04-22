@@ -116,9 +116,6 @@ class Timer extends Component {
           this.endTimer();
         }}
       />
-    <Audio
-      time:{this.state.renderTime}
-      />
     );
   }
 }

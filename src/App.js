@@ -13,6 +13,7 @@ class App extends Component {
         <div className="timer">
           <Timer />
         </div>
+        <Audio />
       </div>
     );
   }
